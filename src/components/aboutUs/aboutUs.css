@@ -1,0 +1,46 @@
+.divRelativeAbout{
+    position: relative;
+}
+
+.AboutLeft{
+    background-color: #C98A40;
+    max-width: 100%;
+    height:840px;
+    max-height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+.AboutRight{
+    background-color: #FFFFFF;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.aboutImg{
+    position: absolute;
+    top: 65px;
+    right: 95px
+}
+
+
+.btnAboutStyle{
+    width: 194px;
+    height: 60px;
+    border: none;
+    border-radius: 30px;
+    background-color:#FDBA10;
+    color: #FFFFFF;
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-size: 18px;
+}
+
+.textContaAbout{
+    width: 100%;
+    height: auto;
+    max-width: 508px;
+    max-height: 312px;
+}

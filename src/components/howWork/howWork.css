@@ -1,0 +1,68 @@
+.leftSection{
+    background-image: url('../../../public/Mask Group (3).png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 689px;
+    height: 840px;
+}
+
+.rightSection{
+    background-color: #C98A40;
+    max-width: 100%;
+    width: 689px;
+    height: 840px;
+}
+
+.paraText{
+    color: #C98A40;
+}
+
+.textSec{
+    width: 249px;
+    height: 156px;
+    position: relative;
+    top: 175px;
+    left: 340px;
+}
+
+.titleTexTstyle{
+    font-size: 144px;
+    color: #FFFFFF;
+    line-height: 138.24px;
+}
+
+.paddingStyleWork{
+    padding-top: 60px;
+}
+
+.marginStyleWork{
+    margin: 10px;
+}
+
+.relativeWork{
+    position: relative;
+}
+
+.absoluteWork{
+    position: absolute;
+    top: 430px;
+    left: 30px;
+} 
+
+.btnHowWork{
+    width: 194px;
+    height: 60px;
+    border: none;
+    border-radius: 30px;
+    background-color:#FDBA10;
+    color: #FFFFFF;
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-size: 18px;
+}
+
+.btnAbsoluteWork{
+    position: absolute;
+    left: 800px;
+    bottom: 15px;
+} 

@@ -1,0 +1,110 @@
+
+.headerLeft{
+    background-color: #C98A40;
+    max-width: 100%;
+    height:840px;
+    max-height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.titleDiv {
+    width: 179px;
+    height: auto;
+    max-height: 68px;
+}
+
+.btnHeaderStyle{
+    width: 194px;
+    height: 60px;
+    border: none;
+    border-radius: 30px;
+    background-color:#FDBA10;
+    color: #FFFFFF;
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-size: 18px;
+}
+
+.headerRight{
+    background-color: #FFFFFF;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.imgHeader{
+    max-width: 100%;
+    height:840px;
+}
+
+.imgsInHeader{
+    width: 100%;
+    max-width: 100%;
+}
+
+.spaceAround{
+    justify-content: space-around;
+}
+
+
+.telephoneStyle{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    color: #FFFFFF;
+}
+
+.divRelative{
+    position: relative;
+}
+
+.divAbsolute{
+    position: absolute;
+    bottom: 150px;
+    right: 220px;
+}
+.divAbsolute img {
+    max-width: 100%;
+    height: auto;
+}
+
+.whiteColor{
+    background-color: #FFFFFF;
+}
+
+@media (max-width: 1400px) { 
+    .spaceAround{
+        justify-content: left
+    }
+ }
+
+ @media (max-width: 1200px) {
+    .divAbsolute {
+        top: 10px; 
+        right: 20px; 
+    }
+
+  }
+
+ @media (max-width: 992px) { 
+    .divAbsolute {
+        top: 10px; 
+        right: 20px; 
+    }
+ }
+
+@media (max-width: 768px) {
+    .divAbsolute {
+        top: 10px; 
+        right: 20px; 
+    }
+}
+
+@media (max-width: 576px) {
+    .divAbsolute {
+        bottom: 50px;
+        right: 10px; 
+    }
+}
+
