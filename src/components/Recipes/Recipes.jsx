@@ -1,14 +1,17 @@
+import { Col, Container, Row } from "react-bootstrap";
 
 import "./Recipes.css";
 
 export default function Recipes() {
-  return (
-    <div className="my-5">
-      <div
-        className="text-group mx-auto"
-      >
+  return <>
+      <Container fluid>
+        <Row>
+        <Col className="text-center mt-5" >
         <p className="recipes-text senFont800 fontSize144">Recipes</p>
-      </div>
+        </Col>
+        </Row>
+      </Container>
+    <div className="my-5">
       <div
         className="my-4 mx-auto d-flex justify-content-between"
         style={{ width: "1199px", height: "504px" }}
@@ -87,5 +90,5 @@ export default function Recipes() {
         <p className="m-0">Contact Us</p>
       </div>
     </div>
-  );
+    </>
 }
