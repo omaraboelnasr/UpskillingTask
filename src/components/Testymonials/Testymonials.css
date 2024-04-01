@@ -1,0 +1,47 @@
+.testy {
+  background-color: #c98a40;
+  background-image: url("../../../public/Group.png");
+
+}
+
+.testy-text p {
+  color: white;
+  font-weight: 800;
+  font-size: 144px;
+  line-height: 138px;
+}
+
+
+.testy-head {
+  font-family: "Poppins", sans-serif;
+  width: 325px;
+  height: 24px;
+  font-weight: 900;
+  font-size: 16px;
+  line-height: 24px;
+  color: #c98a40;
+}
+
+.testy-content {
+  font-family: "Poppins", sans-serif;
+  width: 412px;
+  height: 80px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #333333;
+}
+
+.testy-btn {
+  background-color: #fdba10;
+  border-radius: 30px;
+}
+
+.testy-btn p {
+  width: 119px;
+  height: 24px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 18px;
+}

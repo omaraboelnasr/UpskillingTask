@@ -1,0 +1,57 @@
+.contact-title {
+  position: relative;
+  top: 40px;
+}
+
+.contact-title p {
+    font-family: "Sen", sans-serif;
+  font-weight: 900;
+  font-size: 144px;
+  line-height: 138px;
+  color: #C98A40;
+  position: relative;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+.contact-form {
+  position: relative;
+  top: 80px;
+}
+
+
+.form-inputs input {
+  width: 374px;
+  height: 56px;
+  background-color: #FFD39F;
+  border: 1px solid #FFD39F;
+  border-radius: 61px;
+  margin: 5px 0px;
+  padding-left: 15px;
+}
+
+.form-inputs button {
+  width: 168px;
+  height: 56px;
+  border: 3px solid #FFD39F;
+  background-color: #FFFFFF;
+  border-radius: 61px;
+  margin: 5px 0px;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.data-email p,
+.data-phone p {
+  font-family: "Abel", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+}
+
+.form-data i {
+  color: #C98A40;
+}
