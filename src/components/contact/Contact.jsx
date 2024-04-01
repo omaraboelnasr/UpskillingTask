@@ -58,7 +58,7 @@ export default function Contact() {
               value={mailForm.values.phone}
               onChange={mailForm.handleChange}
             />
-            <button type="submit">Send</button>
+            <button type="submit" className="send-btn-text">Send</button>
           </form>
         </div>
         <div
